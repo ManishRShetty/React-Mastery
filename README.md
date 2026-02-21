@@ -4,11 +4,36 @@ A hands-on reference guide covering essential **JavaScript & React concepts** yo
 
 ---
 
-## 📚 Topics Covered
+## 📁 How This Repo Is Organized
 
-| # | Topic | Key Concept |
-|---|-------|-------------|
-| 1 | [Destructuring](./destructuring.md) | Extract values from objects & arrays cleanly |
+```
+📦 React-Mastery
+├── 01-javascript-essentials/   ← Core JS you must know
+│   └── destructuring.md
+├── 02-react-patterns/          ← How those concepts apply in React
+│   └── destructuring-in-react.md
+└── README.md                   ← You are here
+```
+
+---
+
+## 📚 Topics
+
+### 01 — JavaScript Essentials
+
+Core JavaScript concepts that React is built on.
+
+| # | Topic | File |
+|---|-------|------|
+| 1 | Destructuring | [destructuring.md](./01-javascript-essentials/destructuring.md) |
+
+### 02 — React Patterns
+
+How those JS concepts are applied in real React code.
+
+| # | Topic | File |
+|---|-------|------|
+| 1 | Destructuring in React | [destructuring-in-react.md](./02-react-patterns/destructuring-in-react.md) |
 
 > *More topics coming soon — stay tuned!*
 
@@ -16,23 +41,14 @@ A hands-on reference guide covering essential **JavaScript & React concepts** yo
 
 ## 🚀 Getting Started
 
-This project is built with **React + Vite**.
+Clone the repo and start exploring the topics:
 
 ```bash
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
+git clone https://github.com/<your-username>/React-Mastery.git
+cd React-Mastery
 ```
 
----
-
-## 🛠️ Tech Stack
-
-- **React** — UI library
-- **Vite** — Lightning-fast build tool with HMR
-- **ESLint** — Code quality & consistency
+Each `.md` file is a self-contained lesson — open them in order or jump to whatever you need.
 
 ---
 
